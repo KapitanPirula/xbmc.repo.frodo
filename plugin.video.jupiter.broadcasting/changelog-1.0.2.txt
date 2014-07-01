@@ -1,0 +1,13 @@
+[B]Version 1.0.2[/B] 2014-06-30
+- Update Strings to strings.po
+- Added UnitTests
+- Added Option to show Next Air Date for Shows and identify live Shows
+- Fix bug with video url parser
+- And a lot more small improvements
+
+[B]Version 1.0.1[/B]
+- Added full unicode support
+- Fixed bug where addon would error out if plot was set to none
+
+[B]Version 1.0.0[/B]
+- Initial Version
