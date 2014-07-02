@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="utf8"?>
 <addons>
 	<addon id="plugin.video.enemy.territory" name="Enemy Territory" provider-name="willforde" version="1.0.3">
 		<requires>

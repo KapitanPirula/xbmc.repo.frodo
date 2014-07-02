@@ -146,7 +146,7 @@ class Generator(object):
 		# Save out addons.xml
 		rough_string = ElementTree.tostring(self.tree, "utf-8").replace("\n","").replace("\t","")
 		reparsed = minidom.parseString(rough_string)
-		newXmlData = reparsed.toprettyxml(indent="\t").encode("utf8")
+		newXmlData = reparsed.toprettyxml(indent="\t", encoding="utf8")
 		self.write_file(self.master_xml, newXmlData)
 		
 		# Read back file and Calculate MD5
