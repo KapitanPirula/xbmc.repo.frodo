@@ -1,5 +1,5 @@
 # Call imports
-import os, zipfile, shutil, hashlib, stat
+import os, zipfile, shutil, hashlib
 import xml.dom.minidom as minidom
 import xml.etree.ElementTree as ElementTree
 from hashlib import md5
@@ -111,8 +111,6 @@ class Generator(object):
 					# Create Absolute and Relative Paths
 					absolutePath = os.path.join(dirpath, filename)
 					relativePath = absolutePath.replace(os.path.dirname(addonPath),"")
-					# Change Permissions of file if needed
-					self.change_permissions(absolutePath)
 					# Add file to zipfile
 					zipObj.write(absolutePath, relativePath, zipfile.ZIP_DEFLATED)
 		
@@ -124,15 +122,6 @@ class Generator(object):
 			if filename.endswith(exclude):
 				return False
 		return True
-	
-	def change_permissions(self, filePath):
-		# Fetch stats of file
-		if os.name == "nt": return
-		else:
-			fileStats = os.stat(filePath).st_mode
-			if (fileStats & stat.S_IXUSR) or (fileStats & stat.S_IXGRP) or (fileStats & stat.S_IXOTH):
-				# Change file permission to remove exacute bit
-				os.chmod(filePath, stat.S_IRUSR + stat.S_IWUSR | stat.S_IRGRP | stat.S_IROTH)
 	
 	def check_diff(self, src, dst):
 		# Check checksum of Source and Destination
@@ -150,13 +139,11 @@ class Generator(object):
 		self.write_file(self.master_xml, newXmlData)
 		
 		# Read back file and Calculate MD5
-		self.change_permissions(self.master_xml)
 		xmlData = self.read_file(self.master_xml)
 		hash = self.checksum(xmlData)
 		
 		# Save Hash to file
 		self.write_file(self.master_md5, hash)
-		self.change_permissions(self.master_md5)
 	
 	def checksum(self, data):
 		return md5(data).hexdigest()
