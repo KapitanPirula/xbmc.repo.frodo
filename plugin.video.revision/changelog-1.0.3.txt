@@ -1,0 +1,17 @@
+[B]Version 1.0.3[/B] 2014-12-28
+- Fix bug when no image data is available
+- Added travel genre icon
+
+[B]Version 1.0.2[/B] 2014-06-30
+- Update Strings to strings.po
+- Added UnitTests
+- Added option to list shows by Category via context menu
+- Fix bug when there is no parent show
+- Fix Unicode Bug
+- And a lot more small improvements
+
+[B]Version 1.0.1[/B]
+- Added full unicode support
+
+[B]Version 1.0.0[/B]
+- Initial Version

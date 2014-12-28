@@ -7,13 +7,27 @@
 		</requires>
 		<extension library="lib" point="xbmc.python.module"/>
 		<extension point="xbmc.addon.metadata">
-			<language>en</language>
-			<platform>all</platform>
-			<summary lang="en">XBMC Utility Pack</summary>
-			<description lang="en">Control Pack for Class Integration</description>
-			<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
-			<email>willforde+xbmc@gmail.com</email>
-			<source>https://github.com/willforde/script.module.xbmcutil</source>
+			<language>
+				en
+			</language>
+			<platform>
+				all
+			</platform>
+			<summary lang="en">
+				XBMC Utility Pack
+			</summary>
+			<description lang="en">
+				Control Pack for Class Integration
+			</description>
+			<license>
+				GNU GENERAL PUBLIC LICENSE. Version 3, June 2007
+			</license>
+			<email>
+				willforde+xbmc@gmail.com
+			</email>
+			<source>
+				https://github.com/willforde/script.module.xbmcutil
+			</source>
 		</extension>
 	</addon>
 	<addon id="plugin.video.quake.live" name="Quake Live" provider-name="willforde" version="1.0.2">
@@ -22,32 +36,68 @@
 			<import addon="script.module.xbmcutil" version="2.1.0"/>
 		</requires>
 		<extension library="addon.py" point="xbmc.python.pluginsource">
-			<provides>video</provides>
+			<provides>
+				video
+			</provides>
 		</extension>
 		<extension point="xbmc.addon.metadata">
-			<language>en</language>
-			<platform>all</platform>
-			<summary lang="en">QuakeLive, Archived Quake Live Matchs.</summary>
-			<description lang="en">QuakeLive.tv's goal is to supply everything in one destination--information on upcoming matches, archives of past matches, tons of great video on demand that shows full-length match replays from the lead shoutcaster's perspetive, an expansive demo collection, and tons of other great, community-building features.</description>
-			<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
-			<email>willforde+xbmc@gmail.com</email>
-			<forum>http://forum.xbmc.org/showthread.php?tid=178799</forum>
-			<source>https://github.com/willforde/plugin.video.quake.live</source>
-			<website>http://www.quake-live.tv</website>
+			<language>
+				en
+			</language>
+			<platform>
+				all
+			</platform>
+			<summary lang="en">
+				QuakeLive, Archived Quake Live Matchs.
+			</summary>
+			<description lang="en">
+				QuakeLive.tv's goal is to supply everything in one destination--information on upcoming matches, archives of past matches, tons of great video on demand that shows full-length match replays from the lead shoutcaster's perspetive, an expansive demo collection, and tons of other great, community-building features.
+			</description>
+			<license>
+				GNU GENERAL PUBLIC LICENSE. Version 3, June 2007
+			</license>
+			<email>
+				willforde+xbmc@gmail.com
+			</email>
+			<forum>
+				http://forum.xbmc.org/showthread.php?tid=178799
+			</forum>
+			<source>
+				https://github.com/willforde/plugin.video.quake.live
+			</source>
+			<website>
+				http://www.quake-live.tv
+			</website>
 		</extension>
 	</addon>
 	<addon id="repository.willforde" name="Willforde Repository" provider-name="willforde" version="1.0.2">
 		<extension name="Willforde XBMC Addons" point="xbmc.addon.repository">
-			<info compressed="false">https://github.com/willforde/xbmc.repo.frodo/raw/master/addons.xml</info>
-			<checksum>https://github.com/willforde/xbmc.repo.frodo/raw/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://github.com/willforde/xbmc.repo.frodo/raw/master/</datadir>
+			<info compressed="false">
+				https://github.com/willforde/xbmc.repo.frodo/raw/master/addons.xml
+			</info>
+			<checksum>
+				https://github.com/willforde/xbmc.repo.frodo/raw/master/addons.xml.md5
+			</checksum>
+			<datadir zip="true">
+				https://github.com/willforde/xbmc.repo.frodo/raw/master/
+			</datadir>
 		</extension>
 		<extension point="xbmc.addon.metadata">
-			<summary>XBMC Addons from Willforde</summary>
-			<description>This repository contains addons from Willforde.</description>
-			<disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
-			<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
-			<email>willforde+xbmc@gmail.com</email>
+			<summary>
+				XBMC Addons from Willforde
+			</summary>
+			<description>
+				This repository contains addons from Willforde.
+			</description>
+			<disclaimer>
+				The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.
+			</disclaimer>
+			<license>
+				GNU GENERAL PUBLIC LICENSE. Version 3, June 2007
+			</license>
+			<email>
+				willforde+xbmc@gmail.com
+			</email>
 		</extension>
 	</addon>
 	<addon id="plugin.video.xvideos" name="XVideos" provider-name="willforde" version="1.0.1">
@@ -56,39 +106,79 @@
 			<import addon="script.module.xbmcutil" version="2.1.0"/>
 		</requires>
 		<extension library="addon.py" point="xbmc.python.pluginsource">
-			<provides>video</provides>
+			<provides>
+				video
+			</provides>
 		</extension>
 		<extension point="xbmc.addon.metadata">
-			<language>en</language>
-			<platform>all</platform>
-			<summary lang="en">Porn</summary>
-			<description lang="en">Just more Porn</description>
-			<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
-			<email>willforde+xbmc@gmail.com</email>
-			<forum>http://forum.xbmc.org/showthread.php?tid=_____</forum>
-			<source>https://github.com/willforde/plugin.video._____</source>
-			<website>http://www.xvideos.com/</website>
+			<language>
+				en
+			</language>
+			<platform>
+				all
+			</platform>
+			<summary lang="en">
+				Porn
+			</summary>
+			<description lang="en">
+				Just more Porn
+			</description>
+			<license>
+				GNU GENERAL PUBLIC LICENSE. Version 3, June 2007
+			</license>
+			<email>
+				willforde+xbmc@gmail.com
+			</email>
+			<forum>
+				http://forum.xbmc.org/showthread.php?tid=_____
+			</forum>
+			<source>
+				https://github.com/willforde/plugin.video._____
+			</source>
+			<website>
+				http://www.xvideos.com/
+			</website>
 		</extension>
 	</addon>
-	<addon id="plugin.video.test.tube" name="TestTube" provider-name="willforde" version="1.0.2">
+	<addon id="plugin.video.test.tube" name="TestTube" provider-name="willforde" version="1.0.3">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0"/>
 			<import addon="script.module.xbmcutil" version="2.1.0"/>
 			<import addon="script.module.parsedom" version="2.5.2"/>
 		</requires>
 		<extension library="addon.py" point="xbmc.python.pluginsource">
-			<provides>video</provides>
+			<provides>
+				video
+			</provides>
 		</extension>
 		<extension point="xbmc.addon.metadata">
-			<language>en</language>
-			<platform>all</platform>
-			<summary lang="en">TestTube is a network for all ages where it's cool to be smart and curiosity is the fuel.</summary>
-			<description lang="en">TestTube is a network for the young-at-mind where it's cool to be smart and curiosity is the fuel. We are a digital network, native to the internet where optimism travels, like a virus, at the speed of light. Our hosts are experts, not actors, and our shows are authentic, challenging and irreverent. We're inspiration junkies in an expanding universe of information where we question anything and test everything.</description>
-			<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
-			<email>willforde+xbmc@gmail.com</email>
-			<forum>http://forum.xbmc.org/showthread.php?tid=178801</forum>
-			<source>https://github.com/willforde/plugin.video.test.tube</source>
-			<website>http://testtube.com</website>
+			<language>
+				en
+			</language>
+			<platform>
+				all
+			</platform>
+			<summary lang="en">
+				TestTube is a network for all ages where it's cool to be smart and curiosity is the fuel.
+			</summary>
+			<description lang="en">
+				TestTube is a network for the young-at-mind where it's cool to be smart and curiosity is the fuel. We are a digital network, native to the internet where optimism travels, like a virus, at the speed of light. Our hosts are experts, not actors, and our shows are authentic, challenging and irreverent. We're inspiration junkies in an expanding universe of information where we question anything and test everything.
+			</description>
+			<license>
+				GNU GENERAL PUBLIC LICENSE. Version 3, June 2007
+			</license>
+			<email>
+				willforde+xbmc@gmail.com
+			</email>
+			<forum>
+				http://forum.xbmc.org/showthread.php?tid=178801
+			</forum>
+			<source>
+				https://github.com/willforde/plugin.video.test.tube
+			</source>
+			<website>
+				http://testtube.com
+			</website>
 		</extension>
 	</addon>
 	<addon id="plugin.video.science.friday" name="Science Friday" provider-name="willforde" version="1.0.0">
@@ -98,18 +188,38 @@
 			<import addon="plugin.video.youtube" version="4.4.8"/>
 		</requires>
 		<extension library="addon.py" point="xbmc.python.pluginsource">
-			<provides>video</provides>
+			<provides>
+				video
+			</provides>
 		</extension>
 		<extension point="xbmc.addon.metadata">
-			<language>en</language>
-			<platform>all</platform>
-			<summary lang="en">Science Friday is your trusted source for news and entertaining stories about science.</summary>
-			<description lang="en">Science Friday is your trusted source for news and entertaining stories about science. We started as a radio show, created in 1991 by host and executive producer Ira Flatow. Since then, weve grown into much more: We produce award-winning digital videos and publish original web content covering everything from octopus camouflage to cooking on Mars. SciFri is brain fun, for curious people.</description>
-			<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
-			<email>willforde+xbmc@gmail.com</email>
-			<forum>http://forum.xbmc.org/showthread.php?tid=200630</forum>
-			<source>https://github.com/willforde/plugin.video.science.friday</source>
-			<website>http://www.sciencefriday.com</website>
+			<language>
+				en
+			</language>
+			<platform>
+				all
+			</platform>
+			<summary lang="en">
+				Science Friday is your trusted source for news and entertaining stories about science.
+			</summary>
+			<description lang="en">
+				Science Friday is your trusted source for news and entertaining stories about science. We started as a radio show, created in 1991 by host and executive producer Ira Flatow. Since then, weve grown into much more: We produce award-winning digital videos and publish original web content covering everything from octopus camouflage to cooking on Mars. SciFri is brain fun, for curious people.
+			</description>
+			<license>
+				GNU GENERAL PUBLIC LICENSE. Version 3, June 2007
+			</license>
+			<email>
+				willforde+xbmc@gmail.com
+			</email>
+			<forum>
+				http://forum.xbmc.org/showthread.php?tid=200630
+			</forum>
+			<source>
+				https://github.com/willforde/plugin.video.science.friday
+			</source>
+			<website>
+				http://www.sciencefriday.com
+			</website>
 		</extension>
 	</addon>
 	<addon id="plugin.video.myyoutube" name="My Youtube" provider-name="willforde" version="1.0.2">
@@ -119,18 +229,38 @@
 			<import addon="plugin.video.youtube" version="4.4.8"/>
 		</requires>
 		<extension library="addon.py" point="xbmc.python.pluginsource">
-			<provides>video</provides>
+			<provides>
+				video
+			</provides>
 		</extension>
 		<extension point="xbmc.addon.metadata">
-			<language>en</language>
-			<platform>all</platform>
-			<summary lang="en">Custom Youtube Channels</summary>
-			<description lang="en">Custom Youtube Channels picked by me</description>
-			<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
-			<email>willforde+xbmc@gmail.com</email>
-			<forum>http://forum.xbmc.org/showthread.php?tid=_____</forum>
-			<source>https://github.com/willforde/plugin.video._____</source>
-			<website>_____</website>
+			<language>
+				en
+			</language>
+			<platform>
+				all
+			</platform>
+			<summary lang="en">
+				Custom Youtube Channels
+			</summary>
+			<description lang="en">
+				Custom Youtube Channels picked by me
+			</description>
+			<license>
+				GNU GENERAL PUBLIC LICENSE. Version 3, June 2007
+			</license>
+			<email>
+				willforde+xbmc@gmail.com
+			</email>
+			<forum>
+				http://forum.xbmc.org/showthread.php?tid=_____
+			</forum>
+			<source>
+				https://github.com/willforde/plugin.video._____
+			</source>
+			<website>
+				_____
+			</website>
 		</extension>
 	</addon>
 	<addon id="plugin.video.awntv" name="AWNtv" provider-name="willforde" version="1.0.0">
@@ -139,18 +269,38 @@
 			<import addon="script.module.xbmcutil" version="2.1.0"/>
 		</requires>
 		<extension library="addon.py" point="xbmc.python.pluginsource">
-			<provides>video</provides>
+			<provides>
+				video
+			</provides>
 		</extension>
 		<extension point="xbmc.addon.metadata">
-			<language>en</language>
-			<platform>all</platform>
-			<summary lang="en">Online video media portal for animated video content</summary>
-			<description lang="en">AWNtv is an online animated video media portal with a general viewership target audience of age 13 and up ranging from the standard everyday consumer to the business professional.</description>
-			<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
-			<email>willforde+xbmc@gmail.com</email>
-			<forum>http://forum.xbmc.org/showthread.php?tid=200628</forum>
-			<source>https://github.com/willforde/plugin.video.awntv</source>
-			<website>http://www.awntv.com/</website>
+			<language>
+				en
+			</language>
+			<platform>
+				all
+			</platform>
+			<summary lang="en">
+				Online video media portal for animated video content
+			</summary>
+			<description lang="en">
+				AWNtv is an online animated video media portal with a general viewership target audience of age 13 and up ranging from the standard everyday consumer to the business professional.
+			</description>
+			<license>
+				GNU GENERAL PUBLIC LICENSE. Version 3, June 2007
+			</license>
+			<email>
+				willforde+xbmc@gmail.com
+			</email>
+			<forum>
+				http://forum.xbmc.org/showthread.php?tid=200628
+			</forum>
+			<source>
+				https://github.com/willforde/plugin.video.awntv
+			</source>
+			<website>
+				http://www.awntv.com/
+			</website>
 		</extension>
 	</addon>
 	<addon id="plugin.video.engineeringtv" name="Engineering TV" provider-name="willforde" version="1.0.2">
@@ -160,18 +310,38 @@
 			<import addon="script.module.parsedom" version="2.5.2"/>
 		</requires>
 		<extension library="addon.py" point="xbmc.python.pluginsource">
-			<provides>video</provides>
+			<provides>
+				video
+			</provides>
 		</extension>
 		<extension point="xbmc.addon.metadata">
-			<language>en</language>
-			<platform>all</platform>
-			<summary lang="en">Valuable Engineering TV episodes.</summary>
-			<description lang="en">Penton Media launched EngineeringTV in 2007 across its design engineering group which includes Electronic Design, Machine Design, Power Electronics Technology, Microwaves &amp; RF, Mobile Dev &amp; Design, Medical Design, Motion System Design, Source ESB and Electronic Design Europe. Since that time it has generated millions of page views and hundreds of thousands of unique visitors.</description>
-			<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
-			<email>willforde+xbmc@gmail.com</email>
-			<forum>http://forum.xbmc.org/showthread.php?tid=178795</forum>
-			<source>https://github.com/willforde/plugin.video.engineeringtv</source>
-			<website>http://www.engineeringtv.com</website>
+			<language>
+				en
+			</language>
+			<platform>
+				all
+			</platform>
+			<summary lang="en">
+				Valuable Engineering TV episodes.
+			</summary>
+			<description lang="en">
+				Penton Media launched EngineeringTV in 2007 across its design engineering group which includes Electronic Design, Machine Design, Power Electronics Technology, Microwaves &amp; RF, Mobile Dev &amp; Design, Medical Design, Motion System Design, Source ESB and Electronic Design Europe. Since that time it has generated millions of page views and hundreds of thousands of unique visitors.
+			</description>
+			<license>
+				GNU GENERAL PUBLIC LICENSE. Version 3, June 2007
+			</license>
+			<email>
+				willforde+xbmc@gmail.com
+			</email>
+			<forum>
+				http://forum.xbmc.org/showthread.php?tid=178795
+			</forum>
+			<source>
+				https://github.com/willforde/plugin.video.engineeringtv
+			</source>
+			<website>
+				http://www.engineeringtv.com
+			</website>
 		</extension>
 	</addon>
 	<addon id="plugin.video.jupiter.broadcasting" name="Jupiter Broadcastings" provider-name="willforde" version="1.0.2">
@@ -181,18 +351,38 @@
 			<import addon="script.module.parsedom" version="2.5.2"/>
 		</requires>
 		<extension library="addon.py" point="xbmc.python.pluginsource">
-			<provides>video</provides>
+			<provides>
+				video
+			</provides>
 		</extension>
 		<extension point="xbmc.addon.metadata">
-			<language>en</language>
-			<platform>all</platform>
-			<summary lang="en">Jupiter Broadcasting video addon.</summary>
-			<description lang="en">Watch shows from the Jupiter Broadcasting Network including the Linux Action Show, TechSNAP, SciByte, FauxShow, Coder Radio, and more.</description>
-			<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
-			<email>willforde+xbmc@gmail.com</email>
-			<forum>http://forum.xbmc.org/showthread.php?tid=178797</forum>
-			<source>https://github.com/willforde/plugin.video.jupiter.broadcasting</source>
-			<website>http://www.jupiterbroadcasting.com</website>
+			<language>
+				en
+			</language>
+			<platform>
+				all
+			</platform>
+			<summary lang="en">
+				Jupiter Broadcasting video addon.
+			</summary>
+			<description lang="en">
+				Watch shows from the Jupiter Broadcasting Network including the Linux Action Show, TechSNAP, SciByte, FauxShow, Coder Radio, and more.
+			</description>
+			<license>
+				GNU GENERAL PUBLIC LICENSE. Version 3, June 2007
+			</license>
+			<email>
+				willforde+xbmc@gmail.com
+			</email>
+			<forum>
+				http://forum.xbmc.org/showthread.php?tid=178797
+			</forum>
+			<source>
+				https://github.com/willforde/plugin.video.jupiter.broadcasting
+			</source>
+			<website>
+				http://www.jupiterbroadcasting.com
+			</website>
 		</extension>
 	</addon>
 	<addon id="plugin.video.earthtouch" name="Earth Touch" provider-name="willforde" version="1.1.4">
@@ -202,39 +392,79 @@
 			<import addon="plugin.video.youtube" version="4.4.8"/>
 		</requires>
 		<extension library="addon.py" point="xbmc.python.pluginsource">
-			<provides>video</provides>
+			<provides>
+				video
+			</provides>
 		</extension>
 		<extension point="xbmc.addon.metadata">
-			<language>en</language>
-			<platform>all</platform>
-			<summary lang="en">Beautiful Nature Videos, All HD.</summary>
-			<description lang="en">Earth-Touch aspires to be the pre-eminent multimedia company that brings matters of the Earth (including wildlife and the environment) into the offices, homes and daily lives of people around the world by using cutting-edge technology.</description>
-			<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
-			<email>willforde+xbmc@gmail.com</email>
-			<forum>http://forum.xbmc.org/showthread.php?tid=178803</forum>
-			<source>https://github.com/willforde/plugin.video.earthtouch</source>
-			<website>http://www.earthtouchnews.com</website>
+			<language>
+				en
+			</language>
+			<platform>
+				all
+			</platform>
+			<summary lang="en">
+				Beautiful Nature Videos, All HD.
+			</summary>
+			<description lang="en">
+				Earth-Touch aspires to be the pre-eminent multimedia company that brings matters of the Earth (including wildlife and the environment) into the offices, homes and daily lives of people around the world by using cutting-edge technology.
+			</description>
+			<license>
+				GNU GENERAL PUBLIC LICENSE. Version 3, June 2007
+			</license>
+			<email>
+				willforde+xbmc@gmail.com
+			</email>
+			<forum>
+				http://forum.xbmc.org/showthread.php?tid=178803
+			</forum>
+			<source>
+				https://github.com/willforde/plugin.video.earthtouch
+			</source>
+			<website>
+				http://www.earthtouchnews.com
+			</website>
 		</extension>
 	</addon>
-	<addon id="plugin.video.revision" name="Revision 3" provider-name="willforde" version="1.0.2">
+	<addon id="plugin.video.revision" name="Revision 3" provider-name="willforde" version="1.0.3">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0"/>
 			<import addon="script.module.xbmcutil" version="2.1.0"/>
 			<import addon="script.module.parsedom" version="2.5.2"/>
 		</requires>
 		<extension library="addon.py" point="xbmc.python.pluginsource">
-			<provides>video</provides>
+			<provides>
+				video
+			</provides>
 		</extension>
 		<extension point="xbmc.addon.metadata">
-			<language>en</language>
-			<platform>all</platform>
-			<summary lang="en">Leading Television Network for the Internet Generation.</summary>
-			<description lang="en">Revision 3 shows cover everything from the latest games and gadgets to the funniest film reviews and more.</description>
-			<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
-			<email>willforde+xbmc@gmail.com</email>
-			<forum>http://forum.xbmc.org/showthread.php?tid=178800</forum>
-			<source>https://github.com/willforde/plugin.video.revision</source>
-			<website>http://revision3.com</website>
+			<language>
+				en
+			</language>
+			<platform>
+				all
+			</platform>
+			<summary lang="en">
+				Leading Television Network for the Internet Generation.
+			</summary>
+			<description lang="en">
+				Revision 3 shows cover everything from the latest games and gadgets to the funniest film reviews and more.
+			</description>
+			<license>
+				GNU GENERAL PUBLIC LICENSE. Version 3, June 2007
+			</license>
+			<email>
+				willforde+xbmc@gmail.com
+			</email>
+			<forum>
+				http://forum.xbmc.org/showthread.php?tid=178800
+			</forum>
+			<source>
+				https://github.com/willforde/plugin.video.revision
+			</source>
+			<website>
+				http://revision3.com
+			</website>
 		</extension>
 	</addon>
 	<addon id="plugin.video.johnlocker" name="JohnLocker" provider-name="willforde" version="1.0.3">
@@ -246,18 +476,38 @@
 			<import addon="script.module.parsedom" version="2.5.2"/>
 		</requires>
 		<extension library="addon.py" point="xbmc.python.pluginsource">
-			<provides>video</provides>
+			<provides>
+				video
+			</provides>
 		</extension>
 		<extension point="xbmc.addon.metadata">
-			<language>en</language>
-			<platform>all</platform>
-			<summary lang="en">JohnLocker, Anonymous online education.</summary>
-			<description lang="en">JohnLocker, Anonymous online education and documentaries.</description>
-			<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
-			<email>willforde+xbmc@gmail.com</email>
-			<forum>http://forum.xbmc.org/showthread.php?tid=178796</forum>
-			<source>https://github.com/willforde/plugin.video.johnlocker</source>
-			<website>http://johnlocker.com</website>
+			<language>
+				en
+			</language>
+			<platform>
+				all
+			</platform>
+			<summary lang="en">
+				JohnLocker, Anonymous online education.
+			</summary>
+			<description lang="en">
+				JohnLocker, Anonymous online education and documentaries.
+			</description>
+			<license>
+				GNU GENERAL PUBLIC LICENSE. Version 3, June 2007
+			</license>
+			<email>
+				willforde+xbmc@gmail.com
+			</email>
+			<forum>
+				http://forum.xbmc.org/showthread.php?tid=178796
+			</forum>
+			<source>
+				https://github.com/willforde/plugin.video.johnlocker
+			</source>
+			<website>
+				http://johnlocker.com
+			</website>
 		</extension>
 	</addon>
 	<addon id="plugin.video.toonjet" name="Toonjet" provider-name="willforde" version="1.0.0">
@@ -267,18 +517,38 @@
 			<import addon="plugin.video.youtube" version="4.4.8"/>
 		</requires>
 		<extension library="addon.py" point="xbmc.python.pluginsource">
-			<provides>video</provides>
+			<provides>
+				video
+			</provides>
 		</extension>
 		<extension point="xbmc.addon.metadata">
-			<language>en</language>
-			<platform>all</platform>
-			<summary lang="en">ToonJet brings you the coolest classic cartoons</summary>
-			<description lang="en">Welcome to ToonJet, your first-class ticket to watch free online cartoons! ToonJet has now taken flight, and there are many, many cartoons to download and watch</description>
-			<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
-			<email>willforde+xbmc@gmail.com</email>
-			<forum>http://forum.xbmc.org/showthread.php?tid=_____</forum>
-			<source>https://github.com/willforde/plugin.video.toonjet</source>
-			<website>http://www.toonjet.com</website>
+			<language>
+				en
+			</language>
+			<platform>
+				all
+			</platform>
+			<summary lang="en">
+				ToonJet brings you the coolest classic cartoons
+			</summary>
+			<description lang="en">
+				Welcome to ToonJet, your first-class ticket to watch free online cartoons! ToonJet has now taken flight, and there are many, many cartoons to download and watch
+			</description>
+			<license>
+				GNU GENERAL PUBLIC LICENSE. Version 3, June 2007
+			</license>
+			<email>
+				willforde+xbmc@gmail.com
+			</email>
+			<forum>
+				http://forum.xbmc.org/showthread.php?tid=_____
+			</forum>
+			<source>
+				https://github.com/willforde/plugin.video.toonjet
+			</source>
+			<website>
+				http://www.toonjet.com
+			</website>
 		</extension>
 	</addon>
 	<addon id="plugin.video.watchmojo" name="Watchmojo" provider-name="willforde" version="1.0.2">
@@ -287,18 +557,38 @@
 			<import addon="script.module.xbmcutil" version="2.1.0"/>
 		</requires>
 		<extension library="addon.py" point="xbmc.python.pluginsource">
-			<provides>video</provides>
+			<provides>
+				video
+			</provides>
 		</extension>
 		<extension point="xbmc.addon.metadata">
-			<language>en</language>
-			<platform>all</platform>
-			<summary lang="en">WatchMojo Programing Accross All Topics.</summary>
-			<description lang="en">WatchMojo.com is one of the largest producers, publishers and syndicators of video content for broadband platforms, including the Web, wireless and out-of-home digital video markets.</description>
-			<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
-			<email>willforde+xbmc@gmail.com</email>
-			<forum>http://forum.xbmc.org/showthread.php?tid=178802</forum>
-			<source>https://github.com/willforde/plugin.video.watchmojo</source>
-			<website>http://www.watchmojo.com</website>
+			<language>
+				en
+			</language>
+			<platform>
+				all
+			</platform>
+			<summary lang="en">
+				WatchMojo Programing Accross All Topics.
+			</summary>
+			<description lang="en">
+				WatchMojo.com is one of the largest producers, publishers and syndicators of video content for broadband platforms, including the Web, wireless and out-of-home digital video markets.
+			</description>
+			<license>
+				GNU GENERAL PUBLIC LICENSE. Version 3, June 2007
+			</license>
+			<email>
+				willforde+xbmc@gmail.com
+			</email>
+			<forum>
+				http://forum.xbmc.org/showthread.php?tid=178802
+			</forum>
+			<source>
+				https://github.com/willforde/plugin.video.watchmojo
+			</source>
+			<website>
+				http://www.watchmojo.com
+			</website>
 		</extension>
 	</addon>
 	<addon id="plugin.video.enemy.territory" name="Enemy Territory" provider-name="willforde" version="1.0.3">
@@ -307,18 +597,38 @@
 			<import addon="script.module.xbmcutil" version="2.1.0"/>
 		</requires>
 		<extension library="addon.py" point="xbmc.python.pluginsource">
-			<provides>video</provides>
+			<provides>
+				video
+			</provides>
 		</extension>
 		<extension point="xbmc.addon.metadata">
-			<language>en</language>
-			<platform>all</platform>
-			<summary lang="en">Enemy Territory, Archived Enemy Territory Matchs.</summary>
-			<description lang="en">Enemy Territory, Archived Enemy Territory Matchs.</description>
-			<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
-			<email>willforde+xbmc@gmail.com</email>
-			<forum>http://forum.xbmc.org/showthread.php?tid=178789</forum>
-			<source>https://github.com/willforde/plugin.video.enemy.territory</source>
-			<website>http://enemyterritory.sectornetwork.com/data/playlist_MySQL.php</website>
+			<language>
+				en
+			</language>
+			<platform>
+				all
+			</platform>
+			<summary lang="en">
+				Enemy Territory, Archived Enemy Territory Matchs.
+			</summary>
+			<description lang="en">
+				Enemy Territory, Archived Enemy Territory Matchs.
+			</description>
+			<license>
+				GNU GENERAL PUBLIC LICENSE. Version 3, June 2007
+			</license>
+			<email>
+				willforde+xbmc@gmail.com
+			</email>
+			<forum>
+				http://forum.xbmc.org/showthread.php?tid=178789
+			</forum>
+			<source>
+				https://github.com/willforde/plugin.video.enemy.territory
+			</source>
+			<website>
+				http://enemyterritory.sectornetwork.com/data/playlist_MySQL.php
+			</website>
 		</extension>
 	</addon>
 	<addon id="plugin.video.metalvideo" name="Metalvideo" provider-name="willforde" version="1.0.4">
@@ -329,18 +639,38 @@
 			<import addon="script.module.parsedom" version="2.5.2"/>
 		</requires>
 		<extension library="addon.py" point="xbmc.python.pluginsource">
-			<provides>audio video</provides>
+			<provides>
+				audio video
+			</provides>
 		</extension>
 		<extension point="xbmc.addon.metadata">
-			<language>en</language>
-			<platform>all</platform>
-			<summary lang="en">Heavy Metal Music Videos.</summary>
-			<description lang="en">A Place for all your heavy metal music videos, With loads of categorys.</description>
-			<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
-			<email>willforde+xbmc@gmail.com</email>
-			<forum>http://forum.xbmc.org/showthread.php?tid=178798</forum>
-			<source>https://github.com/willforde/plugin.video.metalvideo</source>
-			<website>http://metalvideo.com</website>
+			<language>
+				en
+			</language>
+			<platform>
+				all
+			</platform>
+			<summary lang="en">
+				Heavy Metal Music Videos.
+			</summary>
+			<description lang="en">
+				A Place for all your heavy metal music videos, With loads of categorys.
+			</description>
+			<license>
+				GNU GENERAL PUBLIC LICENSE. Version 3, June 2007
+			</license>
+			<email>
+				willforde+xbmc@gmail.com
+			</email>
+			<forum>
+				http://forum.xbmc.org/showthread.php?tid=178798
+			</forum>
+			<source>
+				https://github.com/willforde/plugin.video.metalvideo
+			</source>
+			<website>
+				http://metalvideo.com
+			</website>
 		</extension>
 	</addon>
 </addons>
